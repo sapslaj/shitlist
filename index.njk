@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+{%- for thing in collections.things -%}
+<div id="{{ thing.fileSlug }}" class="box columns">
+  <div class="column">
+    <h3 class="title">
+      <a href="#{{ thing.fileSlug }}">
+        {{ thing.data.name }}
+      </a>
+    </h3>
+    <p class="is-size-7 is-italic mt-2">
+      Added {{ thing.data.added_on | luxonFormat("LLLL dd, yyyy") }}
+    </p>
+  </div>
+  <div class="column is-two-thirds content">
+    {{ thing.templateContent | safe }}
+  </div>
+</div>
+{%- endfor -%}

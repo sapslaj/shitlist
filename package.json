@@ -1,0 +1,22 @@
+{
+  "name": "shitlist",
+  "version": "1.0.0",
+  "description": "Companies, things, or people on my shit list; the list of things I don't like.",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sapslaj/shitlist.git"
+  },
+  "author": "sapslaj",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "luxon": "^2.0.2"
+  }
+}
