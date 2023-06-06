@@ -35,6 +35,34 @@
 <p>Oh and iCloud has some infamously weak-sauce security, including <a href="https://www.reuters.com/article/us-apple-fbi-icloud-exclusive/exclusive-apple-dropped-plan-for-encrypting-backups-after-fbi-complained-sources-idUSKBN1ZK1CT">bending to the FBI's will and not encrypting iCloud backups</a>. Because it seems they'll only stand up to the FBI when it happens to generate good PR, such as the <a href="https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute">FBI-Apple iPhone encryption dispute</a>.</p>
 
   </div>
+</div><div id="datadog" class="box columns mb-5">
+  <div class="column">
+    <h3 class="title">
+      <a href="#datadog">
+        Datadog
+      </a>
+    </h3>
+    <p class="is-size-7 is-italic mt-2">
+      Added June 06, 2023
+    </p>
+  </div>
+  <div class="column is-two-thirds content">
+    <p>My day job is being an Site Reliability Engineer. That requires really good obervability (o11y) tooling. I've used Datadog for a year and a half at the time of this writing and it's been disappointing.</p>
+<p>Some highlights:</p>
+<ul>
+<li>The costs are outrageous.</li>
+<li>Their pricing model is wack and makes figuring out where the costs are coming from very difficult.
+<ul>
+<li>in fairness they've made some recent improvements but they are opt-in via your account rep.</li>
+</ul>
+</li>
+<li>Custom metrics pricing is <em>especially</em> bad. (seriously, why does it <em>have</em> to have an aggregation? What if I just want to see all of the time series??)</li>
+<li>Metrics explorer has terrible UX coming from a Prometheus background.</li>
+<li>Log search is extremely frustrating because full text search only works on the message field and not other fields in a structured log message.</li>
+<li>Monitor management UX is also bad. (why is the query some custom query language that's different from the metrics explorer?)</li>
+</ul>
+
+  </div>
 </div><div id="gigabyte" class="box columns mb-5">
   <div class="column">
     <h3 class="title">
