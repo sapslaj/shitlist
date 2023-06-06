@@ -14,3 +14,4 @@ Some highlights:
 - Metrics explorer has terrible UX coming from a Prometheus background.
 - Log search is extremely frustrating because full text search only works on the message field and not other fields in a structured log message.
 - Monitor management UX is also bad. (why is the query some custom query language that's different from the metrics explorer?)
+- I personally have had a not-great experience with their support. Friendly, but not super helpful.
